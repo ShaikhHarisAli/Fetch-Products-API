@@ -18,7 +18,7 @@ const ProductCard = ({ product }) => {
           {product.title}
         </Typography>
          <Typography variant="body2" component="div">
-          {product.description.trim(25)}
+          {product.description}
         </Typography>
         <Typography variant="h6" component="div">
           {product.ratting}
